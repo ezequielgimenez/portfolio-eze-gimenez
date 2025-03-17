@@ -23,8 +23,8 @@ type LayoutProps = {
   params: { locale: string };
 };
 
-export default async function LocaleLayout({ children, params }: LayoutProps) {
-  const { locale } = await Promise.resolve(params);
+export default async function MainLayout({ children, params }: LayoutProps) {
+  const { locale } = await params;
 
   const messages = await getMessages();
 
