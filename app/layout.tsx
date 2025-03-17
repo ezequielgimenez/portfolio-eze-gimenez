@@ -9,6 +9,9 @@ import { getMessages } from "next-intl/server";
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Ezequiel Gimenez",
+  icons: {
+    icon: "/icono.ico",
+  },
 };
 
 const workSans = Work_Sans({
