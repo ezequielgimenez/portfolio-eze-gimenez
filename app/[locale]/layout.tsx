@@ -3,11 +3,11 @@ import { routing } from "@/i18n/routing";
 
 type LayoutProps = {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export default async function LocaleLayout({ children, params }: LayoutProps) {
-  const { locale } = params;
+  const { locale } = await params;
 
   if (!routing.locales.includes(locale as any)) {
     notFound();
