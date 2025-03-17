@@ -18,13 +18,12 @@ const workSans = Work_Sans({
   display: "swap",
 });
 
-export default async function LocaleLayout({
-  children,
-  params,
-}: {
+type LayoutProps = {
   children: React.ReactNode;
   params: { locale: string };
-}) {
+};
+
+export default async function LocaleLayout({ children, params }: LayoutProps) {
   const { locale } = await Promise.resolve(params);
 
   const messages = await getMessages();
