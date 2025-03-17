@@ -24,7 +24,7 @@ type LayoutProps = {
 };
 
 export default async function MainLayout({ children, params }: LayoutProps) {
-  const { locale } = await params;
+  const { locale } = await Promise.resolve(params);
 
   const messages = await getMessages();
 
