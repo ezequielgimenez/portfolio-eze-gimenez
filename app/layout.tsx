@@ -18,13 +18,14 @@ const workSans = Work_Sans({
   display: "swap",
 });
 
-type LayoutProps = {
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
   children: React.ReactNode;
-  params: { locale: string };
-};
-
-export default async function MainLayout({ children, params }: LayoutProps) {
-  const { locale } = params; // Aquí eliminamos Promise.resolve
+  params: Promise<{ locale: string }>; // params ahora es una promesa
+}) {
+  const { locale } = await params;
 
   const messages = await getMessages();
 
