@@ -1,0 +1,19 @@
+{
+  "titulo-hello1": "Hola! Soy Ezequiel.",
+  "titulo-hello2": "Soy ",
+  "titulo-hello3": "Web Developer",
+  "titulo-work": "Algunos trabajos",
+
+  "work-1": "Desarrollé un e-commerce que permite a los usuarios registrarse mediante autenticación passwordless y realizar compras con MercadoPago. Implementé un sistema backend con Next.js que permite al administrador agregar y modificar productos desde Airtable, sincronizados automáticamente con una base de datos en PostgreSQL mediante Sequelize, alojada en Supabase. Proyecto alojado en Vercel, garantizando un rendimiento óptimo y escalabilidad.",
+  "work-2": "Participé en el desarrollo de una landing page como parte de un equipo ágil utilizando la metodología Scrum. Definimos la idea de negocio, misión, MVP, público objetivo, y marca durante las fases de sprint y planificación. Diseñamos y desarrollamos una página alineada con los objetivos del brief, demostrando habilidades colaborativas y enfoque en los detalles de diseño.",
+
+  "work-3": "Creé una web app para localizar mascotas perdidas utilizando React, CSS Modules, y empaquetando el frontend con Vite. Desplegué el frontend en Firebase Hosting y desarrollé un backend robusto con Express.js, manejando datos con Sequelize y enviando correos con Nodemailer. Integré mapas interactivos con la API de Mapbox GL React, mejorando la experiencia de usuario para localizar mascotas.",
+
+  "titulo-about": "Sobre mi",
+  "name": "Ezequiel Giménez",
+  "description": " un apasionado Web Developer con habilidades en frontend y backend, creando aplicaciones con ",
+  "stacks": "React, Next.js, Node.js y bases de datos como PostgreSQL.🚀",
+  "about-me": "Estoy compremetido con mi crecimiento profesional y estoy siempre buscando formas de mejorar y expandir mis habilidades en ambas áreas. Cuando no estoy codificando, ando en bicicleta o saliendo acaminar para buscar más inspiración. 🚴‍♂️🌲",
+  "titulo-contact": "Contacto",
+  "contact": "Si te interesa mi perfil, envíame un mensaje!"
+}

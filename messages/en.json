@@ -1,0 +1,18 @@
+{
+  "titulo-hello1": "Hi! I'm Ezequiel.",
+  "titulo-hello2": "I'm a ",
+  "titulo-hello3": "Web Developer",
+  "titulo-work": "Some works",
+  "work-1": "I developed an e-commerce that allows users to register using passwordless authentication and make purchases with MercadoPago. I implemented a backend system with Next.js that allows the administrator to add and modify products from Airtable, automatically synchronized with a database in PostgreSQL using Sequelize, hosted in Supabase. Project hosted in Vercel, guaranteeing optimal performance and scalability.",
+  "work-2": "I participated in the development of a landing page as part of an agile team using the Scrum methodology. We defined the business idea, mission, MVP, target audience, and brand during the sprint and planning phases. We designed and developed a page aligned with the brief objectives, demonstrating collaborative skills and focus on design details.",
+  "work-3": "I created a web app for locating lost pets using React, CSS Modules, and packaging the frontend with Vite. I deployed the frontend on Firebase Hosting and developed a robust backend with Express.js, handling data with Sequelize and sending emails with Nodemailer. I integrated interactive maps with the Mapbox GL React API, improving the user experience for locating pets.",
+
+  "titulo-about": "About me",
+  "name": "Ezequiel Giménez",
+  "description": " a passionate Web Developer with frontend and backend skills, building applications with ",
+  "stacks": "React, Next.js, Node.js, and databases like PostgreSQL.🚀",
+  "about-me": "I'm committed to my professional growth and I'm always looking for ways to improve and expand my skills in both areas. When I'm not coding, I'm cycling or going for walks to find more inspiration. 🚴‍♂️🌲",
+
+  "titulo-contact": "Contact me",
+  "contact": "If you are interested in my profile, send me a message!"
+}
