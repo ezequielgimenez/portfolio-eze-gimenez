@@ -7,7 +7,7 @@ type LayoutProps = {
 };
 
 export default async function LocaleLayout({ children, params }: LayoutProps) {
-  const { locale } = await Promise.resolve(params);
+  const { locale } = params; // Aquí también eliminamos Promise.resolve
 
   if (!routing.locales.includes(locale as any)) {
     notFound();
