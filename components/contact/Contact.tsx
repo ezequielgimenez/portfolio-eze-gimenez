@@ -14,8 +14,8 @@ export default function ContactComp() {
         </h2>
       </div>
       <div data-aos="zoom-in-right">
-        <div className="flex items-center justify-center h-[150px] pt-1">
-          <h3 className="text-[20px] font-normal  text-[#F0F0F0]">
+        <div className="flex items-center justify-center h-[150px] pt-1 xs:px-2">
+          <h3 className="text-[20px] text-center font-normal  text-[#F0F0F0]">
             {t("contact")}
           </h3>
         </div>

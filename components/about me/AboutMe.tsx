@@ -27,7 +27,7 @@ export default function AboutMeComp() {
               height={300}
             />
           </div>
-          <div className="flex flex-col justify-around  xs:px-2 sm:w-[500px] sm:h-auto sm:justify-center lg:w-[600px]  xl:w-[690px] xl:h-[350px]">
+          <div className="flex flex-col justify-around  xs:px-8 sm:w-[500px] sm:h-auto sm:justify-center lg:w-[600px]  xl:w-[690px] xl:h-[350px]">
             <h3 className="font-normal xs:pb-8  text-[#F0F0F0] sm:text-[15px]  xl:text-[20px]">
               {t("titulo-hello2")}{" "}
               <span className="text-[#858585]">{t("name")}</span>,

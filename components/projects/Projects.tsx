@@ -15,7 +15,7 @@ export default function MyProjectsComp() {
     <div>
       <div
         id="trabajos"
-        className="xs:flex xs:pt-24 xs:justify-center sm:justify-normal sm:pl-8 sm:pt-5 "
+        className="xs:flex xs:pt-24  xs:justify-center sm:justify-normal sm:pl-8 sm:pt-5 "
       >
         <h2 className="text-[28px] font-[500] drop-shadow-[0px_0px_5px_rgba(197,75,140,1)]">
           {t("titulo-work")}
@@ -52,11 +52,11 @@ export default function MyProjectsComp() {
         </div>
 
         <div
-          className="flex flex-col  xs:w-[360px] xs:px-5 sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
+          className="flex flex-col  xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
            xl:h-full  "
         >
           <p
-            className="text-[#BCB4B4] font-[500] pt-[27px] pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start 
+            className="xs:text-[13px] text-[#BCB4B4] font-[500] pt-[27px] pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start 
           xl:w-full xl:text-[20px]"
           >
             {t("work-1")}
@@ -111,11 +111,11 @@ export default function MyProjectsComp() {
         </div>
 
         <div
-          className="flex flex-col xs:w-[360px] xs:px-5  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
+          className="flex flex-col xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
          xl:h-full "
         >
           <p
-            className=" text-[#BCB4B4] font-[500] pt-[27px] pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start 
+            className="xs:text-[13px] text-[#BCB4B4] font-[500] pt-[27px] pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start 
           xl:w-full xl:text-[20px]"
           >
             {t("work-2")}
@@ -170,11 +170,11 @@ export default function MyProjectsComp() {
         </div>
 
         <div
-          className="flex flex-col justify-start xs:w-[360px] xs:px-5  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
+          className="flex flex-col justify-start xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
           xl:h-full"
         >
           <p
-            className="xs:w-full xs:pb-[17px] text-[#BCB4B4] font-[500] pt-[27px] sm:pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start
+            className="xs:w-full xs:pb-[17px] xs:text-[13px] text-[#BCB4B4] font-[500] pt-[27px] sm:pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start
           xl:w-full xl:text-[20px]"
           >
             {t("work-3")}
