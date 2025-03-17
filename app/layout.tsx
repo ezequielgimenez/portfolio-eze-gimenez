@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Work_Sans, Righteous } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import BackgroundComp from "@/components/background/Background";
 import ClientComponent from "./clientComponent";
 import { NextIntlClientProvider } from "next-intl";
@@ -25,12 +25,12 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
+  const { locale } = await Promise.resolve(params);
 
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${workSans.className}`}>
+    <html lang={locale} className={workSans.className}>
       <body>
         <ClientComponent />
         <BackgroundComp>
