@@ -14,11 +14,11 @@ export default function AboutMeComp() {
           </h2>
         </div>
 
-        <div
-          data-aos="zoom-in-right"
-          className=" flex xs:flex-col  h-[500px] sm:w-[640px]  sm:items-center lg:w-[1024px] xl:w-[1192px] xl:flex-row"
-        >
-          <div className="flex xs:justify-center xs:w-[360px] xs:pb-4 xs:pt-4  sm:w-[640px] xl:w-auto  xl:pt-[56px] xl:pl-20 xl:pr-[68px] ">
+        <div className=" flex xs:flex-col  h-[500px] sm:w-[640px]  sm:items-center lg:w-[1024px] xl:w-[1192px] xl:flex-row">
+          <div
+            data-aos="fade-up-right"
+            className="flex xs:justify-center xs:w-[360px] xs:pb-4 xs:pt-4  sm:w-[640px] xl:w-auto  xl:pt-[56px] xl:pl-20 xl:pr-[68px] "
+          >
             <Image
               className="rounded-[30px]"
               src="/images/me3.png"
@@ -27,7 +27,10 @@ export default function AboutMeComp() {
               height={300}
             />
           </div>
-          <div className="flex flex-col justify-around  xs:px-8 sm:w-[500px] sm:h-auto sm:justify-center lg:w-[600px]  xl:w-[690px] xl:h-[350px]">
+          <div
+            data-aos="fade-up-left"
+            className="flex flex-col justify-around  xs:px-8 sm:w-[500px] sm:h-auto sm:justify-center lg:w-[600px]  xl:w-[690px] xl:h-[350px]"
+          >
             <h3 className="font-normal xs:pb-8  text-[#F0F0F0] sm:text-[15px]  xl:text-[20px]">
               {t("titulo-hello2")}{" "}
               <span className="text-[#858585]">{t("name")}</span>,

@@ -21,11 +21,12 @@ export default function MyProjectsComp() {
           {t("titulo-work")}
         </h2>
       </div>
-      <div
-        data-aos="zoom-in-right"
-        className="flex xs:flex-col sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]"
-      >
-        <div className="xs:pl-4 xs:pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px]">
+
+      <div className="flex xs:flex-col sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]">
+        <div
+          data-aos="fade-up-right"
+          className="xs:pl-4 xs:pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px]"
+        >
           {/* Contenedor con límites de la imagen */}
           <a
             href="https://modakelar.vercel.app/"
@@ -52,6 +53,7 @@ export default function MyProjectsComp() {
         </div>
 
         <div
+          data-aos="fade-up-left"
           className="flex flex-col  xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
            xl:h-full  "
         >
@@ -81,11 +83,11 @@ export default function MyProjectsComp() {
 
       {/* ///////////////// */}
 
-      <div
-        data-aos="zoom-in-right"
-        className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]"
-      >
-        <div className="xs:pl-4 pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px] ">
+      <div className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]">
+        <div
+          data-aos="fade-up-right"
+          className="xs:pl-4 pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px] "
+        >
           {/* Contenedor con límites de la imagen */}
           <a
             href="https://vitality-diary.vercel.app/"
@@ -111,6 +113,7 @@ export default function MyProjectsComp() {
         </div>
 
         <div
+          data-aos="fade-up-left"
           className="flex flex-col xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
          xl:h-full "
         >
@@ -140,11 +143,11 @@ export default function MyProjectsComp() {
 
       {/* ///////////////// */}
 
-      <div
-        data-aos="zoom-in-right"
-        className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]"
-      >
-        <div className="xs:pl-4 xs:pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px]">
+      <div className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]">
+        <div
+          data-aos="fade-up-right"
+          className="xs:pl-4 xs:pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px]"
+        >
           {/* Contenedor con límites de la imagen */}
           <a
             href="https://pet-finder-21a3b.web.app/"
@@ -170,6 +173,7 @@ export default function MyProjectsComp() {
         </div>
 
         <div
+          data-aos="fade-up-left"
           className="flex flex-col justify-start xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
           xl:h-full"
         >
