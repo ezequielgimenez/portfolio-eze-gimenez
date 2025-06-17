@@ -1,7 +1,7 @@
 {
   "titulo-hello1": "Hi! I'm Ezequiel.",
-  "titulo-hello2": "I'm a ",
-  "titulo-hello3": "Web Developer",
+  "titulo-hello2": "",
+  "titulo-hello3": "Developer Fullstack",
   "titulo-work": "Some works",
   "work-1": "I developed an e-commerce that allows users to register using passwordless authentication and make purchases with MercadoPago. I implemented a backend system with Next.js that allows the administrator to add and modify products from Airtable, automatically synchronized with a database in PostgreSQL using Sequelize, hosted in Supabase. Project hosted in Vercel, guaranteeing optimal performance and scalability.",
   "work-2": "I participated in the development of a landing page as part of an agile team using the Scrum methodology. We defined the business idea, mission, MVP, target audience, and brand during the sprint and planning phases. We designed and developed a page aligned with the brief objectives, demonstrating collaborative skills and focus on design details.",
