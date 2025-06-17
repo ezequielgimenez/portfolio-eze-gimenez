@@ -29,7 +29,7 @@ export default function MyProjectsComp() {
         >
           {/* Contenedor con límites de la imagen */}
           <a
-            href="https://modakelar.vercel.app/"
+            href="https://github.com/ezequielgimenez/ecommerce-modakelar"
             target="_blank"
             className="relative w-full h-full rounded-[20px] overflow-hidden cursor-pointer"
           >
@@ -150,7 +150,7 @@ export default function MyProjectsComp() {
         >
           {/* Contenedor con límites de la imagen */}
           <a
-            href="https://pet-finder-21a3b.web.app/"
+            href="https://github.com/ezequielgimenez/frontend-pet-finder"
             target="_blank"
             className="relative w-full h-full rounded-[20px] overflow-hidden"
           >
