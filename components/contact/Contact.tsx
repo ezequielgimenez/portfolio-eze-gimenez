@@ -6,7 +6,7 @@ export default function ContactComp() {
   return (
     <div
       id="contacto"
-      className="xs:h-[670px] xs:pt-40 xs:pl-4 sm:pt-[170px] sm:pl-8 sm:pb-32 xl:pt-16 xl:h-[640px]"
+      className="xs:h-[670px] xs:pt-40 xs:pl-4 sm:pt-[170px] sm:pl-8 sm:pb-32 xl:pt-16 xl:h-[500px]"
     >
       <div className="flex xs:justify-center sm:justify-normal">
         <h2 className="text-[28px] font-[500] drop-shadow-[0px_0px_5px_rgba(197,75,140,1)]">
