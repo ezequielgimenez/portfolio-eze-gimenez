@@ -6,11 +6,11 @@ export default function SocialComp() {
         <a
           href="https://www.linkedin.com/in/ezequielgimenez/"
           target="_blank"
-          className="p-5 cursor-pointer"
+          className="px-5 cursor-pointer"
         >
           <Image
-            className="animate-bounce-slow drop-shadow-[0px_0px_5px_rgba(197,75,140,1)] hover:drop-shadow-[0px_0px_8px_#d1d1d1]"
-            src="/images/linkedin.png"
+            className="drop-shadow-[0px_0px_5px_rgba(197,75,140,1)] hover:drop-shadow-[0px_0px_8px_#d1d1d1]"
+            src="/images/linkedin2.png"
             alt="linkedin"
             width={50}
             height={50}
@@ -19,10 +19,10 @@ export default function SocialComp() {
         <a
           href="https://github.com/ezequielgimenez"
           target="_blank"
-          className="p-5 cursor-pointer"
+          className="px-5 cursor-pointer"
         >
           <Image
-            className="animate-bounce-slow drop-shadow-[0px_0px_5px_rgba(197,75,140,1)] hover:drop-shadow-[0px_0px_8px_#d1d1d1]"
+            className="drop-shadow-[0px_0px_5px_rgba(197,75,140,1)] hover:drop-shadow-[0px_0px_8px_#d1d1d1]"
             src="/images/github.png"
             alt="github"
             width={50}
@@ -33,11 +33,11 @@ export default function SocialComp() {
         <a
           href="mailto:ezequielgimenezdev@gmail.com"
           target="_blank"
-          className="p-5 cursor-pointer"
+          className="px-5 cursor-pointer"
         >
           <Image
-            className="animate-bounce-slow drop-shadow-[0px_0px_5px_rgba(197,75,140,1)] hover:drop-shadow-[0px_0px_8px_#d1d1d1]"
-            src="/images/gmail.png"
+            className="drop-shadow-[0px_0px_5px_rgba(197,75,140,1)] hover:drop-shadow-[0px_0px_8px_#d1d1d1]"
+            src="/images/gmail3.png"
             alt="gmail"
             width={50}
             height={55}
