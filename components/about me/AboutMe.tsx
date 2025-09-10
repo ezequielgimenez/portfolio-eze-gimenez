@@ -16,7 +16,7 @@ export default function AboutMeComp() {
 
         <div className=" flex xs:flex-col  h-[500px] sm:w-[640px]  sm:items-center lg:w-[1024px] xl:w-[1192px] xl:flex-row">
           <div
-            data-aos="fade-up-right"
+            data-aos="fade-up"
             className="flex xs:justify-center xs:w-[360px] xs:pb-4 xs:pt-4  sm:w-[640px] xl:w-auto  xl:pt-[56px] xl:pl-20 xl:pr-[68px] "
           >
             <Image
@@ -28,7 +28,7 @@ export default function AboutMeComp() {
             />
           </div>
           <div
-            data-aos="fade-up-left"
+            data-aos="fade-down"
             className="flex flex-col justify-around  xs:px-8 sm:w-[500px] sm:h-auto sm:justify-center lg:w-[600px]  xl:w-[690px] xl:h-[350px]"
           >
             <h3 className="font-normal xs:pb-8  text-[#F0F0F0] sm:text-[15px]  xl:text-[20px]">
