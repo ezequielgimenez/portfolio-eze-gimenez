@@ -86,66 +86,6 @@ export default function MyProjectsComp() {
       <div className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]">
         <div
           data-aos="fade-up"
-          className="xs:pl-4 pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px] "
-        >
-          {/* Contenedor con límites de la imagen */}
-          <a
-            href="https://vitality-diary.vercel.app/"
-            target="_blank"
-            className="relative w-full h-full rounded-[20px] overflow-hidden cursor-pointer"
-          >
-            <Image
-              className="border-transparent transition-all duration-300 ease-in-out xs:w-[375px]"
-              src="/images/work2.png"
-              alt="work 2"
-              width={600}
-              height={370}
-            />
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 rounded-[15px] hover:opacity-100 transition-opacity duration-300 ease-in-out flex items-center justify-center">
-              <h3
-                className={`${righteous.className} text-white text-xl font-semibold`}
-              >
-                Vitality Diary - Corriendo un sprint
-              </h3>
-            </div>
-          </a>
-        </div>
-
-        <div
-          data-aos="fade-down"
-          className="flex flex-col xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
-         xl:h-full "
-        >
-          <p
-            className="xs:text-[13px] text-[#BCB4B4] font-[500] pt-[27px] pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start 
-          xl:w-full xl:text-[20px]"
-          >
-            {t("work-2")}
-          </p>
-          <div className="flex xs:gap-x-2 sm:gap-x-8 sm:justify-center xl:justify-normal xl:px-8  xl:w-full">
-            <button className="border-[10px] border-white text-[12px] bg-white text-[black] rounded w-[71px] xs:h-[30px] sm:h-[25px] flex items-center justify-center cursor-default">
-              Next.js
-            </button>
-            <button className="border-[1px] border-white text-[12px] bg-green-500 text-white rounded w-[71px] xs:h-[30px] sm:h-[25px] flex items-center justify-center cursor-default">
-              Scrum
-            </button>
-
-            <button className="border-[1px] border-white text-[12px] bg-yellow-500 text-black rounded xs:w-[170px] xs:h-[30px] sm:w-[125px] sm:h-[25px] flex items-center justify-center cursor-default">
-              Metodologías Agiles
-            </button>
-            <button className="border-[1px] text-[12px] bg-[#db7093] text-white rounded xs:w-[140px] xs:h-[30px] sm:w-[115px] sm:h-[25px] flex items-center justify-center cursor-default">
-              Style components
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* ///////////////// */}
-
-      <div className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]">
-        <div
-          data-aos="fade-up"
           className="xs:pl-4 xs:pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px]"
         >
           {/* Contenedor con límites de la imagen */}
@@ -224,6 +164,66 @@ export default function MyProjectsComp() {
             </button>
             <button className="border-[1px] py-3 px-3 text-[10px] bg-[#007acc] text-white rounded w-[71px] h-[25px] flex items-center justify-center cursor-default xl:text-[12px] xl:w-[110px]">
               CSS Modules
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* ///////////////// */}
+
+      <div className="flex xs:flex-col xs:pt-10 sm:w-full sm:h-auto sm:container mx-auto px-4 lg:items-center xl:flex-row xl:items-start xl:w-[1250px] xl:h-[421px] xl:pt-[65px]">
+        <div
+          data-aos="fade-up"
+          className="xs:pl-4 pt-8 sm:pl-[100px] sm:pt-[50px] sm:pr-[30px] relative sm:w-[600px] sm:h-[370px] "
+        >
+          {/* Contenedor con límites de la imagen */}
+          <a
+            href="https://vitality-diary.vercel.app/"
+            target="_blank"
+            className="relative w-full h-full rounded-[20px] overflow-hidden cursor-pointer"
+          >
+            <Image
+              className="border-transparent transition-all duration-300 ease-in-out xs:w-[375px]"
+              src="/images/work2.png"
+              alt="work 2"
+              width={600}
+              height={370}
+            />
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 rounded-[15px] hover:opacity-100 transition-opacity duration-300 ease-in-out flex items-center justify-center">
+              <h3
+                className={`${righteous.className} text-white text-xl font-semibold`}
+              >
+                Vitality Diary - Corriendo un sprint
+              </h3>
+            </div>
+          </a>
+        </div>
+
+        <div
+          data-aos="fade-down"
+          className="flex flex-col xs:w-[360px] xs:px-6  sm:w-[640px] sm:h-auto sm:justify-center sm:items-center md:w-[740px] 
+         xl:h-full "
+        >
+          <p
+            className="xs:text-[13px] text-[#BCB4B4] font-[500] pt-[27px] pb-[27px] sm:w-[550px] sm:px-8 sm:text-[15px] sm:text-start 
+          xl:w-full xl:text-[20px]"
+          >
+            {t("work-2")}
+          </p>
+          <div className="flex xs:gap-x-2 sm:gap-x-8 sm:justify-center xl:justify-normal xl:px-8  xl:w-full">
+            <button className="border-[10px] border-white text-[12px] bg-white text-[black] rounded w-[71px] xs:h-[30px] sm:h-[25px] flex items-center justify-center cursor-default">
+              Next.js
+            </button>
+            <button className="border-[1px] border-white text-[12px] bg-green-500 text-white rounded w-[71px] xs:h-[30px] sm:h-[25px] flex items-center justify-center cursor-default">
+              Scrum
+            </button>
+
+            <button className="border-[1px] border-white text-[12px] bg-yellow-500 text-black rounded xs:w-[170px] xs:h-[30px] sm:w-[125px] sm:h-[25px] flex items-center justify-center cursor-default">
+              Metodologías Agiles
+            </button>
+            <button className="border-[1px] text-[12px] bg-[#db7093] text-white rounded xs:w-[140px] xs:h-[30px] sm:w-[115px] sm:h-[25px] flex items-center justify-center cursor-default">
+              Style components
             </button>
           </div>
         </div>
