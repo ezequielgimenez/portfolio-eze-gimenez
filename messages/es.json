@@ -3,7 +3,7 @@
   "titulo-hello2": "",
   "titulo-hello3": "Developer Fullstack",
   "titulo-work": "Algunos proyectos",
-
+  "titulo-certificado": "Mis certificaciones",
   "work-1": "Proyecto de apx school. Desarrollé un e-commerce que permite a los usuarios registrarse mediante autenticación passwordless y realizar compras con MercadoPago. Implementé un sistema backend con Next.js que permite al administrador agregar y modificar productos desde Airtable, sincronizados automáticamente con una base de datos en PostgreSQL mediante Sequelize, alojada en Supabase. Proyecto alojado en Vercel, garantizando un rendimiento óptimo y escalabilidad.",
   "work-2": "Proyecto de apx school. Participé en el desarrollo de una landing page como parte de un equipo ágil utilizando la metodología Scrum. Definimos la idea de negocio, misión, MVP, público objetivo, y marca durante las fases de sprint y planificación. Diseñamos y desarrollamos una página alineada con los objetivos del brief, demostrando habilidades colaborativas y enfoque en los detalles de diseño.",
 
@@ -13,7 +13,7 @@
   "name": "Ezequiel Giménez",
   "description": " un apasionado Web Developer con habilidades en frontend y backend, creando aplicaciones con ",
   "stacks": "React, Next.js, Node.js y bases de datos como PostgreSQL.🚀",
-  "about-me": "Estoy compremetido con mi crecimiento profesional y estoy siempre buscando formas de mejorar y expandir mis habilidades en ambas áreas. Cuando no estoy inmerso en el diseño o la programación, me gusta  salir a dar un paseo, siempre buscando nuevas ideas e inspiración para mis proyectos. 🚴‍♂️🌲",
+  "about-me": "Estoy comprometido con mi crecimiento profesional y en constante aprendizaje para ofrecer soluciones modernas en diseño y desarrollo web. Mi objetivo es ayudar a emprendedores y marcas a potenciar su presencia digital con sitios atractivos, funcionales y fáciles de usar.",
   "titulo-contact": "Contacto",
   "contact": "Si te interesa mi perfil, envíame un mensaje!"
 }
